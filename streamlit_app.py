@@ -20,7 +20,7 @@ personal1 = st.number_input("Monthly Personal Spending Cost: ")
 
 total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal1)
 
-if personal1 != 0:
+if personal1 > 0:
   print(total)
 
 
