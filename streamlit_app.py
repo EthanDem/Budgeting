@@ -18,7 +18,7 @@ substances1 = st.input("Monthly Alchohol, Weed, and Nic costs: ")
 
 personal1 = st.input(input("Monthly Personal Spending Cost: ")
 
-total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal)
+total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal1)
 st.header("Total price = " + total)
 
 
