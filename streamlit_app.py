@@ -6,22 +6,22 @@ st.header("Budgetting App For Apartment")
 
 rent1 = st.number_input("Monthly Rent Cost", step = 1)
 
-gas1 = st.number_input("Monthly Gas Cost: ")
+gas1 = st.number_input("Monthly Gas Cost: ", step = 1)
 
-food1 = st.number_input("Monthly Food Cost: ")
+food1 = st.number_input("Monthly Food Cost: ", step = 1)
 
-girl1 = st.number_input("Monthly Girl Cost (If you get no bitches, just throw in a 0): ")
+girl1 = st.number_input("Monthly Girl Cost (If you get no bitches, just throw in a 0): ", step = 1)
 
-gambling1 = st.number_input("Monthly Gambling Cost dont cap: ")
+gambling1 = st.number_input("Monthly Gambling Cost dont cap: ", step = 1)
 
-substances1 = st.number_input("Monthly Alchohol, Weed, and Nic costs: ")
+substances1 = st.number_input("Monthly Alchohol, Weed, and Nic costs: ", step = 1)
 
-personal1 = st.number_input("Monthly Personal Spending Cost: ")
+personal1 = st.number_input("Monthly Personal Spending Cost: ", step = 1)
 
 total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal1)
 
 if personal1 > 0:
-  st.header(total)
+  st.header("Total Costs Per Month = ", total)
 
 
 
