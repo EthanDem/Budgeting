@@ -20,7 +20,7 @@ personal1 = st.number_input("Monthly Personal Spending Cost: ", step = 1)
 
 total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal1)
 
-if st.button("Submit Calculations")
+if st.button("Submit Calculations"):
   time.sleep(0.5)
   st.header("Your total monthly cost is:")
   st.header(total)
