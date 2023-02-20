@@ -4,7 +4,7 @@ st.set_page_config(page_title="Budgetting App", page_icon='tada', layout='wide')
 
 st.header("Budgetting App For Apartment")
 
-rent1 = st.number_input("Monthly Rent Cost")
+rent1 = st.number_input("Monthly Rent Cost", step = 1)
 
 gas1 = st.number_input("Monthly Gas Cost: ")
 
