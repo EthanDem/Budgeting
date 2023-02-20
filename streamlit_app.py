@@ -18,7 +18,8 @@ substances1 = st.number_input("Monthly Alchohol And Substances Cost: ", step = 1
 
 personal1 = st.number_input("Monthly Personal Spending Cost: ", step = 1)
 
-total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal1)
+bmw1 = st.number_input("Monthly BMW Driver Cost (skip if not bmw owner")
+total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal1 +bmw1)
 
 if st.button("Submit Calculations"):
   st.write('Your total monthly costs come out to ', total)
