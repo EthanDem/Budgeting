@@ -22,7 +22,7 @@ total = (rent1 + gas1 + food1 + girl1 + gambling1 + substances1 + personal1)
 
 if st.button("Submit Calculations"):
   st.header("Your total monthly cost is:")
-  st.header('$', total, '.00')
+  st.header('$', total)
 
 
 
